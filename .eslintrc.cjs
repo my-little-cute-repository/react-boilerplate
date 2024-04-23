@@ -1,16 +1,7 @@
 module.exports = {
 	parser: '@typescript-eslint/parser',
 	plugins: ['@typescript-eslint', 'import'],
-	extends: [
-		'eslint:recommended',
-		'plugin:@typescript-eslint/recommended',
-		'plugin:import/errors',
-		'plugin:import/warnings',
-		'plugin:import/typescript',
-		'plugin:import/recommended',
-		'plugin:storybook/recommended',
-		'plugin:prettier/recommended',
-	],
+	extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript', 'plugin:import/recommended', 'plugin:storybook/recommended', 'plugin:prettier/recommended', 'plugin:storybook/recommended'],
 	overrides: [],
 	parserOptions: {
 		ecmaVersion: 'latest',
